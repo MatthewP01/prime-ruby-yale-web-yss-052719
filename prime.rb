@@ -4,6 +4,5 @@ def prime?(int)
   return true if int < 4
   (2..int/2).none? do |div|
     int % div == 0
-    return true
   end
 end
